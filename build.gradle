@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group 'com.paypay'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'io.vavr:vavr:0.9.0'
+    
+    testCompile group: 'org.junit.jupiter', name: 'junit-jupiter', version: '5.4.2'
+}
